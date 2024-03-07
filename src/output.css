@@ -931,6 +931,10 @@ video {
     width: 67%;
   }
 
+  .sm\:w-\[35\%\] {
+    width: 35%;
+  }
+
   .sm\:items-center {
     align-items: center;
   }
