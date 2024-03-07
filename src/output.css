@@ -907,6 +907,30 @@ video {
     width: 100vw;
   }
 
+  .sm\:w-\[\%\] {
+    width: %;
+  }
+
+  .sm\:w-\[68\%\] {
+    width: 68%;
+  }
+
+  .sm\:w-\[3\%\] {
+    width: 3%;
+  }
+
+  .sm\:w-\[33\%\] {
+    width: 33%;
+  }
+
+  .sm\:w-\[6\%\] {
+    width: 6%;
+  }
+
+  .sm\:w-\[67\%\] {
+    width: 67%;
+  }
+
   .sm\:items-center {
     align-items: center;
   }
