@@ -8,9 +8,10 @@ module.exports = {
       },
       colors: {
         'blue': 'hsl(223, 87%, 63%)',
-        'pale-blue': 'hsl(223, 100%, 88%)',
+        'pale-blue': '#C2D3FF',
         'light-red': 'hsl(354, 100%, 66%)',
-        'gray': 'hsl(0, 0%, 59%)',
+        'gray': '#969696',
+        'dark': '#15202A',
       },
     },
   },
