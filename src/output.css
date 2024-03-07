@@ -827,6 +827,42 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:absolute {
+    position: absolute;
+  }
+
+  .sm\:relative {
+    position: relative;
+  }
+
+  .sm\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .sm\:bottom-\[\] {
+    bottom: ;
+  }
+
+  .sm\:bottom-\[-10\] {
+    bottom: -10;
+  }
+
+  .sm\:bottom-\[-10\%\] {
+    bottom: -10%;
+  }
+
+  .sm\:bottom-\[-20\%\] {
+    bottom: -20%;
+  }
+
+  .sm\:bottom-\[-30\%\] {
+    bottom: -30%;
+  }
+
+  .sm\:bottom-\[-35\%\] {
+    bottom: -35%;
+  }
+
   .sm\:mb-0 {
     margin-bottom: 0px;
   }
