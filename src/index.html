@@ -13,6 +13,7 @@
   <script src="https://kit.fontawesome.com/c78e85199e.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Ping coming soon page</title>
 
@@ -28,13 +29,13 @@
         <h1 class="text-gray text-[22px] sm:text-5xl leading-[32px] sm:leading-[60px] text-center font-light">We are launching <span class="text-dark font-bold">soon!</span></h1>
         <p class="text-dark text-xs md:text-xl text-center font-light pt-4 pb-8 sm:pb-10">Subscribe and get notified</p>
       </div>
-      <form>
+      <form id="form">
         <div class="sm:flex sm:justify-between gap-4 sm:items-center">
           <div class="flex flex-col w-full sm:w-[70%]">
             <input class="h-10 sm:h-14 border border-pale-blue placeholder:text-pale-blue rounded-[30px] px-8 text-xs md:text-base font-light leading-[20px]" type="email" name="email" id="email" placeholder="You email address..." required>
-            <span class="text-light-red text-[10px] sm:text-xs italic leading-[20px] tracking-[.13px] sm:tracking-[.15px] text-center sm:text-left px-8"></span>
+            <span id="error" class="text-light-red text-[10px] sm:text-xs italic leading-[20px] tracking-[.13px] sm:tracking-[.15px] text-center sm:text-left px-8"></span>
           </div>
-          <button class="h-10 sm:h-14 w-full sm:w-[30%] rounded-[30px] bg-blue text-white text-xs sm:text-base font-semibold leading-[16px]  mt-2.5 sm:mt-0" type="submit">Notify Me</button>
+          <button id="btn" class="h-10 sm:h-14 w-full sm:w-[30%] rounded-[30px] bg-blue text-white text-xs sm:text-base font-semibold leading-[16px]  mt-2.5 sm:mt-0 shadow-lg hover:opacity-70" type="submit">Notify Me</button>
         </div>
       </form>
     </div>
@@ -59,5 +60,7 @@
       Coded by <a class="text-light-red font-bold" href="https://github.com/flaviare1s/">Flávia Reis</a>.
     </p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
