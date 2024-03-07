@@ -9,7 +9,7 @@ module.exports = {
       colors: {
         'blue': 'hsl(223, 87%, 63%)',
         'pale-blue': '#C2D3FF',
-        'light-red': 'hsl(354, 100%, 66%)',
+        'light-red': '#FF5466',
         'gray': '#969696',
         'dark': '#15202A',
       },
